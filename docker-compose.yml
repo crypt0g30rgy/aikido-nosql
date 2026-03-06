@@ -1,6 +1,6 @@
 services:
   mongodb:
-    image: mongo:latest
+    image: mongo:6.0.27
     container_name: aikido-mongodb
     ports:
       - "27017:27017"
